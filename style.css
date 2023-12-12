@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.bars {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  cursor: pointer;
+  background: rgb(39, 39, 39);
+}
+
+.bars-bars-bars {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.bars-bars-bars > div {
+  margin-bottom: 5px;
+}
+
+.icon {
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
